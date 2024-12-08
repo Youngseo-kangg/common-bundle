@@ -1,7 +1,6 @@
 # /.gitignore
 
 .yarn/*
-.changeset/*
 
 !.yarn/cache
 !.yarn/patches
