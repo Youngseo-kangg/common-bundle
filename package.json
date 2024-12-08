@@ -1,0 +1,9 @@
+{
+  "name": "common-bundle",
+  "version": "1.0.0",
+  "description": "bundle of common options, configs, etc,.",
+  "main": "index.js",
+  "repository": "https://github.com/Youngseo-kangg/common-bundle.git",
+  "author": "Youngseo Kang <youngseo.kangg@gmail.com>",
+  "license": "MIT"
+}
