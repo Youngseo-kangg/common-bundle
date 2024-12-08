@@ -1,0 +1,15 @@
+# /.gitignore
+
+.yarn/*
+.changeset/*
+
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+build
+
+dist
