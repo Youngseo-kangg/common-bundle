@@ -1,0 +1,20 @@
+{
+  "name": "@common-bundle/prettier",
+  "version": "1.0.0",
+  "description": "Youngseo-kangg's prettier custom plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Youngseo-kangg/common-bundle",
+    "directory": "packages/prettier"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "author": {
+    "name": "Youngseo Kang",
+    "email": "youngseo.kangg@gmail.com"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "prettier": ">= 3"
+  }
+}

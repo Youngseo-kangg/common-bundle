@@ -1,7 +1,7 @@
 {
-  "name": "@common-bundle/eslint-prettier",
+  "name": "@common-bundle/eslint",
   "version": "1.0.0",
-  "description": "Youngseo-kangg's eslint, prettier custom plugin",
+  "description": "Youngseo-kangg's eslint custom plugin",
   "repository": {
     "type": "git",
     "url": "https://github.com/Youngseo-kangg/common-bundle",
@@ -30,5 +30,11 @@
   "scripts": {
     "build": "nanobundle build --root-dir=./",
     "prepublishOnly": "yarn run build"
+  },
+  "dependencies": {
+    "eslint": "^9.16.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1"
   }
 }

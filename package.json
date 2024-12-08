@@ -7,9 +7,11 @@
   "author": "Youngseo Kang <youngseo.kangg@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "./packages/eslint"
+    "packages/*"
   ],
   "scripts": {
+    "eslint": "yarn workspace @common-bundle/eslint",
+    "prettier": "yarn workspace @common-bundle/prettier",
     "build": "ultra -r build",
     "release": "yarn changeset publish",
     "version": "changeset version && yarn install --no-immutable"
