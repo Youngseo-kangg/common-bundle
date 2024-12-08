@@ -1,9 +1,28 @@
 {
   "name": "common-bundle",
-  "version": "1.0.0",
+  "version": "0.0.0-thisisnotyetpublished",
   "description": "bundle of common options, configs, etc,.",
   "main": "index.js",
   "repository": "https://github.com/Youngseo-kangg/common-bundle.git",
   "author": "Youngseo Kang <youngseo.kangg@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "./packages/eslint"
+  ],
+  "scripts": {
+    "build": "ultra -r build",
+    "release": "yarn changeset publish",
+    "version": "changeset version && yarn install --no-immutable"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.10",
+    "eslint": "^9.16.0",
+    "pretier": "^0.0.1",
+    "ultra-runner": "^3.10.5"
+  },
+  "ultra": {
+    "concurrent": [
+      "build"
+    ]
+  }
 }
