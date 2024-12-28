@@ -7,7 +7,7 @@
   "author": "Youngseo Kang <youngseo.kangg@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "packages/*"
+    "./packages/*"
   ],
   "scripts": {
     "eslint": "yarn workspace @common-bundle/eslint",
