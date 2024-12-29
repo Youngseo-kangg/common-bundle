@@ -32,6 +32,7 @@
     "prepublishOnly": "yarn run build"
   },
   "dependencies": {
+    "@rushstack/eslint-config": "^4.1.0",
     "eslint": "^9.16.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-json-format": "^2.0.1",
