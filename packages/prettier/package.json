@@ -1,6 +1,6 @@
 {
   "name": "@common-bundle/prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Youngseo-kangg's prettier custom plugin",
   "repository": {
     "type": "git",
